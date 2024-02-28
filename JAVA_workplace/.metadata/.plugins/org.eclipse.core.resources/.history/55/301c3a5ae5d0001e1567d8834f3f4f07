@@ -1,0 +1,13 @@
+package ProgramsByMe;
+
+public class StringMethods20224 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String x="Hello Everyone";
+String y="Myself Jaya";
+System.out.println(x.charAt(4));
+System.out.println(y.charAt(6));
+	}
+
+}

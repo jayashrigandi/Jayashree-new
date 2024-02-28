@@ -1,0 +1,17 @@
+package CodeMind_B10;
+
+
+
+
+public class EmployeeObject {
+
+	int eid;
+	String ename;
+	String job;
+	int sal;
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

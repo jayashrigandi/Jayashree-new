@@ -1,0 +1,24 @@
+package TestPackage;
+
+class JumpBreak{
+	void Break()
+	{
+	int i=50;
+	{
+	while(i==20)
+	{
+		break;}
+	System.out.println("Value of i: "+i);
+ i++;
+ }}
+	}
+
+public class Jump_Break_Continue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+JumpBreak b=new JumpBreak();
+b.Break();
+	}
+}
+

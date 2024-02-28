@@ -1,0 +1,35 @@
+package TestPackage;
+
+
+final class jayashri{
+	 int i=2;
+	void Final() {
+		System.out.println("This is for final method=" +i);
+	
+	}
+
+}
+public class Finalkeyword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	jayashri j =new jayashri();
+	j.Final();
+	
+	
+	
+	}
+
+	public void Final() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

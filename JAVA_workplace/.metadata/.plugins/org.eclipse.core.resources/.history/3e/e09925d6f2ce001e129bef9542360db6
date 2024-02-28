@@ -1,0 +1,32 @@
+package CodeMind_B10;
+
+public class String_Example {
+
+		public static void main(String[] args) {
+			
+			String Firstname="Jayashri";
+			
+			System.out.println(s);
+			
+			String lastname=new String("Gandi");
+			
+			System.out.println(lastname);
+			
+			String sss="J";
+			
+			System.out.println(s.hashCode());
+			System.out.println(sss.hashCode());
+			
+			
+			String contnumber="0921010011";
+			
+			String contdetails=contnumber.concat("000");
+			
+			System.out.println(contdetails);
+			
+			System.out.println(contnumber);
+
+		}
+
+	}
+

@@ -1,0 +1,38 @@
+package TestPackage;
+
+public class Calculatormethods {
+
+	public static void main(String[] args) {
+		
+Cal c1=new Cal();
+c1.display();
+	}
+
+}
+class method{
+	public int a=15;
+	public int b=20;
+	
+	void addition(int a, int b)
+	{
+		int add=a+b;
+		System.out.println("Addition=>"+add);
+	}
+	void substraction(int x, int y)
+	{
+		int z=x-y;
+		System.out.println("Substraction=>"+z);
+	}
+	int multiplication ( int p, int q)
+	{
+		int r =p*q;
+		System.out.println("Multiplication=>"+r);
+		return r;
+	}
+	float division(int m, int n)
+	{
+	float f=m/n;
+	System.out.println("Division=>"+f);
+	return f;
+	}
+}

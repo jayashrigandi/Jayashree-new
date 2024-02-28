@@ -1,0 +1,24 @@
+package TestPackage;
+class operators
+{
+	void unaryIncreamentmethod()
+	{
+		int a=30;
+		System.out.println("Prefix value of "+ ++a);
+		System.out.println("Postfix value of "+ a++);
+	}
+	void unarydecreamentfixmethod()
+	{
+		int b=30;
+		System.out.println("Postfixoperator-"+ b++);
+	}
+}
+
+public class Operatorsexample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package CodeMind_B10;
+
+public class ArrayDecending {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number[]={82,2,4,10,66,55,88};
+
+		System.out.println("\nPrint all the numbers in decending order");
+
+
+		for(int i=0;i>=number.length;i++)
+		{
+			for(int j=i-1;j>number.length;j++)
+			{
+				if(number[j]>number[i])
+			{
+				int n=number[i];
+				number[i]=number[j];
+				number[j]=n;
+			}
+		  }
+		}
+		for(int a:number)
+		{
+		System.out.println(a);
+		}
+		}
+		}
+	
+
+

@@ -1,0 +1,34 @@
+package CodeMind_B10;
+
+public class String_Example {
+
+		public static void main(String[] args) {
+			
+			String Firstname="Jayashri";
+			
+			System.out.println("Person's Full Name :"+Firstname);
+			
+			String lastname=new String("Gandi");
+			String Middlename="J";
+			System.out.println(Middlename);
+			
+			System.out.println(lastname);
+			
+			
+			
+			System.out.println(Firstname.hashCode());
+		System.out.println(Middlename.hashCode());
+			
+			
+			String contnumber="0921010011";
+			
+			String contdetails=contnumber.concat("011");
+			
+			System.out.println("Contact details:"+contdetails);
+			
+			//System.out.println(contnumber);
+
+		}
+
+	}
+

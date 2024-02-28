@@ -1,0 +1,23 @@
+package ProgramsByMe;
+
+public class PenObject {
+
+	private char[] name;
+	private char[] price;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			 int price=10;//field or data member or instance variable  
+			 String name="Ink Pen";  
+			  
+			 {
+			  PenObject P1=new PenObject();//creating an object of Student  
+			  PenObject P2=new PenObject();
+			  System.out.println(P1.price);//accessing member through reference variable  
+			  System.out.println(P2.name);  
+			 }  
+			}  
+
+	}
+

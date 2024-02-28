@@ -1,0 +1,57 @@
+package ProgramsByMe;
+
+public class PalindromString {
+
+	int a=0,b=str.length()-1;
+	while(a<b)//to compare the character of the given string
+	{
+		if(str.charAt(a)!=str.charAt(b))
+		{
+			System.out.println("String is not Palindrom");
+			
+		}
+	a++;
+	b--;
+	}
+	
+	public static void main(String[] args)
+	{
+	
+      String str="Hach To Chha";
+      String str2="Codemind";
+	
+//change string to lowercase
+	str=str.toLowerCase();
+	str2=str.toLowerCase();
+	
+	//for String 1
+	System.out.println("String1 ");
+	if(isPalindrome(str))
+		System.out.println("It is a Palindrome");
+	else
+		System.out.println("It is not a Palindrome");
+	System.out.println("");
+	//For String 2
+	System.out.println("String2 ");
+	if(isPalindrome(str))
+		System.out.println("It is a Palindrome");
+	System.out.println("");
+	else
+		System.out.println("It is not a Palindrome");
+			
+			
+			
+		
+	
+	
+	
+	
+	
+	
+}
+
+	private static boolean isPalindrome(String str) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+}

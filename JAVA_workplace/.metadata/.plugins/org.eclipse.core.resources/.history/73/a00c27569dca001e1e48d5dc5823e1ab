@@ -1,0 +1,47 @@
+package TestPackage;
+
+ class J
+ 
+void breakstatement()
+{
+	int i =30;
+	{
+	while(i<=30)
+	{
+		if(i==10)
+		break;
+	}
+	System.out.println("TheValue of i"+i);
+	i++;
+	}
+	
+	System.out.println("===================");
+}
+ 
+ void continuestatement() {
+		
+	int b=10;
+	do
+	{
+		System.out.println("=======================");
+		b++;
+		if(b==5)
+		{
+			continue;
+		}
+	//System.out.println("Value of b"+b);
+	
+//	while ( b<10)
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		J B=new J();
+		B.breakstatement();
+		B.continuestatement();
+	}
+	}
+		
+		
+

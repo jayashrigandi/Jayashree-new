@@ -1,0 +1,31 @@
+package ProgramsByMe;
+class Apple
+{
+	String a="Apple";
+	public void display()
+	{
+		System.out.println("From child class Apple");
+		System.out.println("Apple is good for health"+a);
+	}
+}
+
+class Orange{
+	
+    String o ="Orange";
+
+	public void displaycolor()
+	{
+		System.out.println("From child class Orange");
+		System.out.println("Color of fruit is"+o);
+	}
+}
+
+
+public class Fruits {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

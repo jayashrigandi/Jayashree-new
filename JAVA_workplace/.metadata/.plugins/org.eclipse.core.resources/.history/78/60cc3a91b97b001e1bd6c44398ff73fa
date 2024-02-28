@@ -1,0 +1,19 @@
+package TestPackage;
+
+class add(int a1,int b);
+{
+	public int a =100;
+	public int b =200;
+	public int addition=a1+b;
+	System.out.println("Addition="+addition);
+}
+
+
+public class New_Calculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+add c =new add();
+	}
+
+}

@@ -1,0 +1,43 @@
+package TestPackage;
+
+class calculator
+{
+	int a= 100;
+	int b=200;
+	public void add()
+	{
+		int c=a+b;
+		System.out.println("Addition:"+c);
+	}
+	public void sub(int x, int y)
+	{
+		int z=x-y;
+		System.out.println("Substraction:"+z);
+	}
+	int multiplication(int n, int o)
+	{
+		int m=n*o;
+		System.out.println("Multiplication:"+m);
+		return m;
+	}
+	float division(int p, int q)
+	{
+		float f=p/q;
+		System.out.println("Addition +"+f);
+		return f;
+	}
+}
+public class methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		calculator cal = new calculator();
+		cal.add();
+		cal.sub(30, 50);
+		cal.multiplication(2,15);
+		cal.division(12, 4);
+	}
+
+	}
+
+}

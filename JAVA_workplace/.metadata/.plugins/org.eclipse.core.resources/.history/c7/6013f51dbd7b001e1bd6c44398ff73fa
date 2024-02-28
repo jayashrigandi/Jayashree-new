@@ -1,0 +1,19 @@
+package TestPackage;
+
+class Add
+{
+	
+	public int a =100;
+	public int b =200;
+	public int c =a+b;
+	return c;
+}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Add c =new Add(a,b);
+c.Add();
+	}
+
+}
